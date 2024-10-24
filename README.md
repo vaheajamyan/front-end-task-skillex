@@ -36,6 +36,15 @@ Implement a dynamic filtering system for a product catalog using **React.js** (w
 ### 8. Extra (Bonus)
 - Implement **localStorage** to save user filter and sorting preferences so they persist when users revisit the page or refresh.
 
+### 9. Testing (Required)
+- Implement unit tests to check the functionality of the filtering system using a testing library such as **Jest** or **React Testing Library**.
+- Ensure that tests cover:
+  - **Rendering of components**: Ensure the product catalog and filter components render correctly.
+  - **Filter logic**: Test the filtering logic to ensure it correctly filters the product list based on user input (category, price range, brand, rating).
+  - **Real-time updates**: Validate that the filtering system updates in real time when filter values change.
+  - **No products found**: Test the behavior when no products match the filter criteria.
+  - **Sorting functionality** (if implemented as a bonus): Ensure that sorting works as expected.
+
 ## Example Stack
 - **React.js**: You can use (`useState`, `useEffect`, `useMemo`) for state and side effects or library which you prefer.
 - **CSS or SCSS**: For styling the filter UI and making it responsive.
