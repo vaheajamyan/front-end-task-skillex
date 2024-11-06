@@ -1,111 +1,70 @@
-# Skillex
-## Task: Build a Dynamic Filtering System for a Product Catalog (React.js without TypeScript) "You can use any library which you prefer"
+# Getting Started with Create React App
 
-## Objective
-Implement a dynamic filtering system for a product catalog using **React.js** (without TypeScript) that allows users to filter products based on multiple criteria such as category, price range, brand, and rating.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Task Details
+## Available Scripts
 
-### 1. Data Fetching
-- Fetch product data from a given use mock data.
-- Ensure efficient data fetching and handle pagination if necessary.
+In the project directory, you can run:
 
-### 2. Filter Options
-- Display available filters for **category**, **brand**, **price range slider**, and **rating** in a sidebar or filter panel.
-- Allow users to apply multiple filters simultaneously.
+### `npm start`
 
-### 3. Real-Time Filtering
-- Implement real-time filtering as users interact with the filter options.
-- Use **debouncing** (with `setTimeout` or a custom hook) to prevent unnecessary renders and API calls when filtering by text input (e.g., price range or search).
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### 4. Responsive Design
-- Ensure the filtering system works smoothly on mobile and desktop devices.
-- Implement a **collapsible filter menu** for smaller screens using React state to manage visibility.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### 5. User Feedback
-- Show a **loading spinner** (using a component or library like `react-spinners`) while fetching or applying filters.
-- Display a **"no products found"** message if no products match the current filters.
+### `npm test`
 
-### 6. Optimization
-- Ensure the filtering and rendering processes are optimized for performance, particularly when dealing with large datasets.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 7. Sort Options (Bonus)
-- Add the ability to **sort products** by different criteria such as price, rating, and popularity.
-- Allow the sorting options to integrate with the filtering, updating the product list accordingly.
+### `npm run build`
 
-### 8. Extra (Bonus)
-- Implement **localStorage** to save user filter and sorting preferences so they persist when users revisit the page or refresh.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### 9. Testing (Required)
-- Implement unit tests to check the functionality of the filtering system using a testing library such as **Jest** or **React Testing Library**.
-- Ensure that tests cover:
-  - **Rendering of components**: Ensure the product catalog and filter components render correctly.
-  - **Filter logic**: Test the filtering logic to ensure it correctly filters the product list based on user input (category, price range, brand, rating).
-  - **Real-time updates**: Validate that the filtering system updates in real time when filter values change.
-  - **No products found**: Test the behavior when no products match the filter criteria.
-  - **Sorting functionality** (if implemented as a bonus): Ensure that sorting works as expected.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Example Stack
-- **React.js**: You can use (`useState`, `useEffect`, `useMemo`) for state and side effects or library which you prefer.
-- **CSS or SCSS**: For styling the filter UI and making it responsive.
-- **Debouncing**: Use a custom hook or utility function for optimizing real-time filtering inputs.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Expected Deliverables
-- A fully functional product filtering system that works without page reloads.
-- A responsive and user-friendly UI that provides feedback during loading/filtering states.
-- Bonus: Sorting and persistent filter preferences using `localStorage`.
+### `npm run eject`
 
----
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Mock Data
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Here is an example of mock data you can use for the task also if you want you can modify it:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```json
-[
-  {
-    "id": 1,
-    "name": "Wireless Headphones",
-    "category": "Electronics",
-    "brand": "Brand A",
-    "price": 99.99,
-    "rating": 4.5,
-    "imageUrl": "https://example.com/images/headphones.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Bluetooth Speaker",
-    "category": "Electronics",
-    "brand": "Brand B",
-    "price": 49.99,
-    "rating": 4.0,
-    "imageUrl": "https://example.com/images/speaker.jpg"
-  },
-  {
-    "id": 3,
-    "name": "Running Shoes",
-    "category": "Footwear",
-    "brand": "Brand C",
-    "price": 59.99,
-    "rating": 4.2,
-    "imageUrl": "https://example.com/images/shoes.jpg"
-  },
-  {
-    "id": 4,
-    "name": "Smartphone",
-    "category": "Electronics",
-    "brand": "Brand D",
-    "price": 499.99,
-    "rating": 4.8,
-    "imageUrl": "https://example.com/images/smartphone.jpg"
-  },
-  {
-    "id": 5,
-    "name": "Leather Jacket",
-    "category": "Clothing",
-    "brand": "Brand E",
-    "price": 199.99,
-    "rating": 4.7,
-    "imageUrl": "https://example.com/images/jacket.jpg"
-  }
-]
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
