@@ -35,27 +35,19 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
+
     {
       "id": 6,
       "name": "Wireless Headphones",
       "category": "Electronics",
       "brand": "Brand A",
       "price": 99.99,
-      "rating": 4.5,
+      "rating": 4,
       "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/gutenberg.jpg"
     },
     {
       "id": 7,
-      "name": "Bluetooth Speaker",
+      "name": "unique",
       "category": "Electronics",
       "brand": "Brand B",
       "price": 49.99,
@@ -216,15 +208,6 @@
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
     {
-      "id": 25,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -259,16 +242,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -304,16 +279,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -350,16 +317,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -394,16 +353,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -439,16 +390,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -484,16 +427,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -529,16 +464,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -575,16 +502,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -619,16 +538,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -665,16 +576,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -709,16 +612,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -754,16 +649,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -799,16 +686,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -844,16 +723,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -890,16 +761,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -934,16 +797,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -980,16 +835,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -1024,16 +871,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1069,16 +908,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1114,16 +945,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1159,16 +982,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1205,16 +1020,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -1249,16 +1056,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1295,16 +1094,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -1339,16 +1130,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1384,16 +1167,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1429,16 +1204,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1474,16 +1241,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1520,16 +1279,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -1564,16 +1315,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1609,16 +1352,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1655,16 +1390,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -1699,16 +1426,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1745,16 +1464,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -1789,16 +1500,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1834,16 +1537,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1879,16 +1574,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1924,16 +1611,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -1970,16 +1649,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -2014,16 +1685,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2060,16 +1723,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -2104,16 +1759,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2149,16 +1796,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2194,16 +1833,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2239,16 +1870,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2285,16 +1908,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -2329,16 +1944,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2375,16 +1982,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -2419,16 +2018,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2464,16 +2055,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2509,16 +2092,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2554,16 +2129,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2600,16 +2167,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -2644,16 +2203,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2690,16 +2241,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -2734,16 +2277,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2779,16 +2314,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2825,16 +2352,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -2869,16 +2388,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2914,16 +2425,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -2959,16 +2462,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3004,16 +2499,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3050,16 +2537,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -3094,16 +2573,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3140,16 +2611,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -3184,16 +2647,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3229,16 +2684,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3274,16 +2721,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3319,16 +2758,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3365,16 +2796,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -3409,16 +2832,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3455,16 +2870,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -3499,16 +2906,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3544,16 +2943,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3589,16 +2980,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3634,16 +3017,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3680,16 +3055,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -3724,16 +3091,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3770,16 +3129,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -3814,16 +3165,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3859,16 +3202,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3904,16 +3239,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3949,16 +3276,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -3995,16 +3314,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -4039,16 +3350,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4085,16 +3388,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -4129,16 +3424,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4174,16 +3461,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4219,16 +3498,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4264,16 +3535,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4310,16 +3573,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -4354,16 +3609,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4400,16 +3647,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -4444,16 +3683,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4489,16 +3720,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4534,16 +3757,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4579,16 +3794,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4625,16 +3832,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -4669,16 +3868,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4715,16 +3906,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -4759,16 +3942,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4804,16 +3979,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4849,16 +4016,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4894,16 +4053,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -4940,16 +4091,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -4984,16 +4127,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -5030,16 +4165,8 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
+
     {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },
-    {
       "id": 1,
       "name": "Wireless Headphones",
       "category": "Electronics",
@@ -5074,16 +4201,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -5120,15 +4239,7 @@
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
     },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
-    },    
+    
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -5164,16 +4275,8 @@
       "price": 499.99,
       "rating": 4.8,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/IHXoEES.png"
-    },
-    {
-      "id": 5,
-      "name": "Leather Jacket",
-      "category": "Clothing",
-      "brand": "Brand E",
-      "price": 199.99,
-      "rating": 4.7,
-      "imageUrl": "http://commondatastorage.googleapis.com/codeskulptor-assets/week5-triangle2.png"
     },
+
     {
       "id": 1,
       "name": "Wireless Headphones",
@@ -5198,7 +4301,7 @@
       "category": "Footwear",
       "brand": "Brand C",
       "price": 59.99,
-      "rating": 1.2,
+      "rating": 4.2,
       "imageUrl": "http://codeskulptor-demos.commondatastorage.googleapis.com/pang/NljADnB.png"
     },
     {

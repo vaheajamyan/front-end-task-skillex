@@ -1,27 +1,59 @@
-import React, { useState, useEffect, useTransition, useRef, useMemo } from 'react';
+import React, { useState, useEffect, useTransition, useRef, useReducer } from 'react';
+import Catalog from './Catalog';
 import {regExTrim} from '../Helper/auxiliaryFunctions.js';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid2';
 import Rating from '@mui/material/Rating';
 import Slider from '@mui/material/Slider';
 import Stack from '@mui/material/Stack';
-import SnackbarContent from '@mui/material/SnackbarContent';
 import Button from '@mui/material/Button';
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Pagination from '@mui/material/Pagination';
 import FormLabel from '@mui/material/FormLabel';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import CircularProgress from '@mui/material/CircularProgress';
 import CloseIcon from '@mui/icons-material/Close';
+
+  const categoryArray = {
+    checked: [false, false, false], 
+    name: ['Electronics', 'Footwear', 'Clothing']
+  }
+
+  function categoryReducer(state, action){
+    switch(action.type){
+      case 'category_checked_change': {
+        return {
+          checked: action.newChecked,
+          name: state.name
+        }
+      }
+      default: {
+        console.log('Unknown case');
+      }
+    }
+    throw Error('Unknown action: ' + action.type);
+  }
+
+  const brandArray = {
+    checked: [false, false, false, false, false], 
+    name: ['Brand A', 'Brand B', 'Brand C', 'Brand D', 'Brand E']
+  }
+
+  function brandReducer(state, action){
+    switch(action.type){
+      case 'brand_checked_change': {
+        return {
+          checked: action.newChecked,
+          name: state.name
+        }
+      }
+      default: {
+        console.log('Unknown case');
+      }
+    }
+    throw Error('Unknown action: ' + action.type);
+  }
 
   function valuetext(value) {
     return `${value}°C`;
@@ -30,21 +62,24 @@ import CloseIcon from '@mui/icons-material/Close';
   let debounceSearching;
 
 const Products = () => {
+  const [preKeyword, setPreKeyword] = useState('');
   const [keyword, setKeyword] = useState('');
   const [category, setCategory] = useState([]);
   const [brand, setBrand] = useState([]);
   const [rating, setRating] = useState(null);
   const [priceRange, setPriceRange] = useState([5, 500]);
-  const [data, setData] = useState([]);   
+  const [data, setData] = useState([]);
   const [foundData, setFoundData] = useState([]);
   const [filter, setFilter] = useState(false);
   const [isPending, startTransition] = useTransition() ;
   const [page, setPage] = useState(1);
+  const [categoryState, categoryDispatch] = useReducer(categoryReducer, categoryArray);
+  const [brandState, brandDispatch] = useReducer(brandReducer, brandArray);
   const rowCount = 10;
   let countRef = useRef(0);
 
   async function getData(){
-    await fetch('./storage/data.json',{
+    await fetch('http://localhost:3000/storage/data.json',{
       headers : { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'
@@ -52,23 +87,30 @@ const Products = () => {
     })
     .then(response => response.json())
     .then(response=>{      
-      setData(response);    
+      setData(response);
     })
     .catch(err => console.error(err))
   }
   
+
   const searchFnc = (newKeyword) => {
+    setPreKeyword(newKeyword);
     if(debounceSearching !== undefined){
       clearTimeout(debounceSearching);
-    }
-    debounceSearching = setTimeout(function() {
+    }    
+    debounceSearching = setTimeout(function() {      
       setKeyword(newKeyword);
-    },1000)
+    },1000);
   }
 
   const chooseCategoryFnc = (event, newCategory) => {
+    const nameIndex = (element) => element === newCategory;
+    const cch = categoryState.checked;
+    cch[categoryState.name.findIndex(nameIndex)] = cch[categoryState.name.findIndex(nameIndex)] ? false : true;
+    categoryDispatch({type: 'category_checked_change', newChecked: cch});
+
     if(!category.includes(newCategory) && event.checked === true){
-      setCategory(oldCategories => [...oldCategories, newCategory])
+      setCategory(oldCategories => [...oldCategories, newCategory]);
     }else{
       const index = category.indexOf(newCategory);
       if (index > -1) {
@@ -78,8 +120,13 @@ const Products = () => {
   }
 
   const chooseBrandFnc = (event, newBrand) => {
+    const nameIndex = (element) => element === newBrand;
+    const bch = brandState.checked;
+    bch[brandState.name.findIndex(nameIndex)] = bch[brandState.name.findIndex(nameIndex)] ? false : true;
+    brandDispatch({type: 'brand_checked_change', newChecked: bch});
+
     if(!brand.includes(newBrand) && event.checked === true){
-      setBrand(oldBrands => [...oldBrands, newBrand])
+      setBrand(oldBrands => [...oldBrands, newBrand]);
     }else{
       const index = brand.indexOf(newBrand);
       if (index > -1) {
@@ -99,7 +146,7 @@ const Products = () => {
   function searchLogic(keyword = '', category = [], brand = [], rating = null, priceRange = [5, 500]){
     countRef.current = 0;
     setFoundData([]);
-    for (let i= 0; i<data.length; i++) {        
+    for (let i= 0; i<data.length; i++) {     
       if (
           ((data[i].name.includes(keyword)  || 
           data[i].category.includes(keyword)  || 
@@ -125,9 +172,11 @@ const Products = () => {
         )
       {           
         countRef.current++;
+
+
         startTransition(() => {
           if((countRef.current  > (rowCount * page) - rowCount) && (countRef.current  <= (rowCount * page))){
-            setFoundData(oldData => [...oldData, data[i]]);
+           setFoundData(oldData => [...oldData, data[i]]);       
           }
         });
       }
@@ -146,17 +195,31 @@ const Products = () => {
     setPage(currentPage);
   };
 
-  useMemo(() => {
-    return getData();
-  },[]);
+  useEffect(() => {
+  for(let i=0; i<categoryArray.checked.length; i++){
+    if(categoryArray.checked[i] === true){
+      setCategory(oldCategories => [...oldCategories, categoryArray.name[i]]);
+    }
+  }
+
+  for(let i=0; i<brandArray.checked.length; i++){
+    if(brandArray.checked[i] === true){
+      setBrand(oldBrands => [...oldBrands, brandArray.name[i]]);
+    }
+  }
+  },[])
 
   useEffect(() => {
+    if(data.length === 0){
+      getData();
+    }
+
     if(regExTrim(keyword).length > 0 || category.length > 0 || brand.length > 0 || rating !== null ){
       searchLogic(regExTrim(keyword), category, brand, rating, priceRange);
     }else {
       setFoundData([]);
     }
-  },[keyword, category, brand, rating, priceRange, page])
+  },[keyword, category, brand, rating, priceRange, page, data])
 /////////////////////////////////////////////////////////////////////////////////////////////////
   
   return (
@@ -167,12 +230,12 @@ const Products = () => {
             <Box component="div" sx={{ display: { xs: (filter ? 'block': 'none'), sm: filter ? 'block': 'none',  md: 'inline' }}}>
               <Grid container spacing={1}  align="left">
                 <Grid  size={{ xs: 12, sm: 6, md: 12 }}>
-                  <Box component="div" m={3} xs={3} >
-                    <FormLabel component="legend">Category</FormLabel>    
+                  <Box component="div" m={3} xs={3}>
+                    <FormLabel component="legend">Category</FormLabel>
                     <FormGroup>
-                      <FormControlLabel control={<Checkbox onChange={(e) => chooseCategoryFnc(e.target, 'Electronics')} />} label="Electronics" />
-                      <FormControlLabel control={<Checkbox onChange={(e) => chooseCategoryFnc(e.target, 'Footwear')} />} label="Footwear" />
-                      <FormControlLabel control={<Checkbox onChange={(e) => chooseCategoryFnc(e.target, 'Clothing')} />} label="Clothing" />
+                      {categoryState.name.map((element, key) => {
+                        return (<FormControlLabel key={key} control={<Checkbox checked={categoryState.checked[key]} onChange={(e) => chooseCategoryFnc(e.target, element)} />} label={element} />)
+                      })}
                     </FormGroup>
                   </Box>
                 </Grid>
@@ -180,11 +243,9 @@ const Products = () => {
                   <Box component="div" m={3}>
                     <FormLabel component="legend">Brand</FormLabel>
                     <FormGroup>
-                      <FormControlLabel control={<Checkbox onChange={(e) => chooseBrandFnc(e.target, 'Brand A')} />} label="Brand A" />
-                      <FormControlLabel control={<Checkbox onChange={(e) => chooseBrandFnc(e.target, 'Brand B')} />} label="Brand B" />
-                      <FormControlLabel control={<Checkbox onChange={(e) => chooseBrandFnc(e.target, 'Brand C')} />} label="Brand C" />
-                      <FormControlLabel control={<Checkbox onChange={(e) => chooseBrandFnc(e.target, 'Brand D')} />} label="Brand D" />
-                      <FormControlLabel control={<Checkbox onChange={(e) => chooseBrandFnc(e.target, 'Brand E')} />} label="Brand E" />
+                      {brandState.name.map((element, key) => {
+                        return (<FormControlLabel key={key} control={<Checkbox checked={brandState.checked[key]} onChange={(e) => chooseBrandFnc(e.target, element)} />} label={element} />)
+                      })}
                     </FormGroup>
                   </Box>
                 </Grid>
@@ -204,6 +265,7 @@ const Products = () => {
                   <Box component="div" m={3}>
                     <FormLabel component="legend">0 - 500</FormLabel>
                     <Slider
+                      data-testid="Slider-price-range-testid"
                       getAriaLabel={() => 'Temperature range'}
                       min={0}
                       max={500}
@@ -222,12 +284,13 @@ const Products = () => {
           </Grid>
           <Grid size={{ xs: 12, sm: 12, md: 9, lg: 10 }} align="left" >
             <Box component="div" sx={{ display: { xs: 'block', md: 'inline' } }}>
-              <Stack spacing={2} m={2} direction="row">
+              <Stack spacing={2} m={2} direction="row">                
                 <TextField          
+                  data-testid="Search-input"
+                  placeholder="Search..."                  
                   id="outlined-required"
-                  label="Search..."
                   style={{width: '100%', }}
-                  defaultValue={keyword}
+                  value={preKeyword}   
                   onChange={(e) => searchFnc(e.target.value)}
                 />    
                 <Button 
@@ -239,72 +302,14 @@ const Products = () => {
                   {filter && <CloseIcon sx={{ fontSize: "small" }} />}
                 </Button>
               </Stack>
-              {isPending 
+              {isPending
               ?  
-                <Box component="div" m={3}>
+                <Box component="div" m={3} style={{ textAlign: 'center' }}>
                   <CircularProgress />
                 </Box>
               :
               <>
-              { (foundData.length > 0 ) ?
-              <>
-              <TableContainer  component={Paper}>
-                <Table aria-label="simple table">
-                  <TableHead style={{background: '#763876'}}>
-                    <TableRow className="Table-row">
-                      <TableCell className="Table-cell">Id</TableCell>
-                      <TableCell className="Table-cell" align="left">Name</TableCell>
-                      <TableCell className="Table-cell" align="left">Category</TableCell>
-                      <TableCell className="Table-cell" align="left">Brand</TableCell>
-                      <TableCell className="Table-cell" align="left">Price</TableCell>            
-                      <TableCell className="Table-cell" align="left">Rating</TableCell>            
-                      <TableCell className="Table-cell" align="left">ImageUrl</TableCell>            
-                    </TableRow>
-                  </TableHead>
-                  <TableBody>
-                    {foundData.map((row, key) => (              
-                      <TableRow
-                        key={key}                        
-                        sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-                      >                
-                        <TableCell component="th" scope="row">{row.id}</TableCell>
-                        <TableCell align="left">{row.name}</TableCell>
-                        <TableCell align="left">{row.category}</TableCell>
-                        <TableCell align="left">{row.brand}</TableCell>
-                        <TableCell align="left">{row.price}</TableCell>
-                        <TableCell align="left">{row.rating}</TableCell>
-                        <TableCell align="left"><img src={row.imageUrl} style={{width: '20px', height: '20px'}} alt="productImg" /></TableCell>
-                      </TableRow>
-                    ))}
-                  </TableBody>
-                </Table>
-               
-              </TableContainer>
-              <Box style={{
-                background: 'white',         
-                display:'flex',
-                justifyContent:'center',
-                alignItems:'center',
-                borderRadius: '0 0 8px 8px',
-                paddingBottom: '20px',
-                boxShadow: '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
-                }}>
-                <Pagination
-                  count={Math.ceil(countRef.current/rowCount)}
-                  size="medium"
-                  page={page}
-                  variant="outlined"
-                  sx={{ paddingTop: '20px'}}
-                  shape="rounded"                           
-                  onChange={changePagination}                   
-                />  
-              </Box>
-              </>
-              :        
-              <Stack spacing={2}  >        
-                <SnackbarContent message={ 'No products found'}  />
-              </Stack>
-              }
+              <Catalog foundData = {foundData} countRef = {countRef.current} page = {page} rowCount = {rowCount} changePagination = {changePagination}/>              
             </>
             }
             </Box>
@@ -313,7 +318,6 @@ const Products = () => {
       </Box>
     </>
   )
-
 }
 
 export default Products;
